@@ -630,57 +630,106 @@ switch(val){
 
 
 //================================//
-
+function isLess(a, b) {
+    return (a < b);
+}
+isLess(10, 15);
 //================================//
 
 
 //================================//
-
+function abTest(a, b) {
+  if(a < 0 || b < 0){
+    return
+  }
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+abTest(2,2);
 //================================//
 
 
 //================================//
-
+ switch (card){
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count += 1;
+      break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+      count -= 1;
+      break;
+  }
+  if(count <= 0){
+    return count + ' Hold';
+  }else{
+    return count + ' Bet';
+  }
 //================================//
 
 
 //================================//
-
+name: 'fill',
+  legs: 4,
+  tails: 2,
+  friends: ['first', 'second']
 //================================//
 
 
 //================================//
-
+const hatValue = testObj.hat;    
+const shirtValue = testObj.shirt; 
 //================================//
 
 
 //================================//
-
+const entreeValue = testObj["an entree"];
+const drinkValue = testObj["the drink"]; 
 //================================//
 
 
 //================================//
-
+const playerNumber = 16;
+const player = testObj[playerNumber]; 
 //================================//
 
 
 //================================//
-
+myDog.name = 'Happy Coder';
 //================================//
 
 
 //================================//
-
+myDog.bark = "bow-wow";
 //================================//
 
 
 //================================//
-
+delete myDog.tails;
 //================================//
 
 
 //================================//
-
+function phoneticLookup(val) {
+  let result = "";
+  const lookup = {
+    "": undefined,
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  }
+  result = lookup[val]
+  return result;
+}
+phoneticLookup("charlie");
 //================================//
 
 
