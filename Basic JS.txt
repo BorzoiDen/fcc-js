@@ -137,57 +137,63 @@ c *= 10;
 
 
 //================================//
-
+a /= 12;
+b /= 4;
+c /= 11;
 //================================//
 
 
 //================================//
-
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 //================================//
 
 
 //================================//
-
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 //================================//
 
 
 //================================//
-
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 //================================//
 
 
 //================================//
-
+const myStr = "This is the start. " + "This is the end.";
 //================================//
 
 
 //================================//
-
+let myStr = 'This is the first sentence. ' 
+myStr += 'This is the second sentence.';
 //================================//
 
 
 //================================//
-
+const myName = "Denis";
+const myStr = "My name is" + myName + "and I am well!";
 //================================//
 
 
 //================================//
-
+const someAdjective = "Some";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
 //================================//
 
 
 //================================//
-
+lastNameLength = lastName.length;
 //================================//
 
 
 //================================//
-
+firstLetterOfLastName = lastName[0];
 //================================//
 
 
 //================================//
-
+myStr = "Hello World";
 //================================//
 
 
