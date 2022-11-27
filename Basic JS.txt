@@ -688,8 +688,8 @@ const shirtValue = testObj.shirt;
 
 
 //================================//
-const entreeValue = testObj["an entree"];
-const drinkValue = testObj["the drink"]; 
+const entreeValue =  testObj["an entree"];
+const drinkValue =  testObj["the drink"]; 
 //================================//
 
 
